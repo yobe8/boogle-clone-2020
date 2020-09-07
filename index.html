@@ -1,22 +1,68 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boogle</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
+
 <body>
     <header class="nav">
+        <ul class="nav__contents">
+            <li class="nav__contents__mail">
+                <a href="#">Bmail</a>
+            </li>
+            <li class="nav__contents__search-image">
+                <a href="#">이미지</a>
+            </li>
+            <li class="nav__contents__apps">
+                <a href="#"><i class="fas fa-th fa-lg"></i></a>
+            </li>
+            <li class="nav__contents__account">
+                <a href="">
+                    <img src="https://images.adoist.com/classified-images/001/083/060/4602662/photo_3-month-old-yorkie-pups_38000971.jpg" alt="user profile photo" />
+                </a>
 
+            </li>
+        </ul>
     </header>
 
     <main class="main-screen">
-
+        <img class="main-screen__img" src="https://www.google.com/logos/doodles/2020/kim-sowols-118th-birthday-6753651837108317-l.png" alt="김소월 일러스트" />
+        <div class="main-screen__search-bar">
+            <span class="main-screen__search-bar__icon">
+                
+            </span>
+            <form class="main-screen__search" action="./searchResult.html">
+                <input type="text">
+            </form>
+            <span class="main-screen__add-funcs">
+                <button class="main-screen__add-funcs__input-tools">Boogle 검색</button>
+                <button class="main-screen__add-funcs__input-voice">I'm Felling Lucky!</button>
+            </span>
+        </div>
     </main>
 
     <footer class="boogle-info">
-
+        <div class="boogle-info__user-location"></div>
+        <div class="boogle-info__options">
+            <ul class="boogle-info__options__ads">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <ul class="boogle-info__options__settings">
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
     </footer>
+
+    <script src="https://kit.fontawesome.com/917f04d711.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

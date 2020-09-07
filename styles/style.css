@@ -1,0 +1,10 @@
+@import "./reset.css";
+
+/* Main page styles*/
+@import "./nav.css";
+@import "./main-screen.css";
+
+
+body {
+    color: gray;
+}

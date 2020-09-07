@@ -1,0 +1,36 @@
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100vw;
+}
+
+.nav__contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav__contents li {
+    margin: 0 10px;
+}
+
+.nav__contents li:not(:nth-child(3)) {
+    color: black;
+}
+
+.nav__contents__mail a:hover,
+.nav__contents__search-image a:hover {
+    color: gray;
+}
+
+.nav__contents__apps a:hover {
+    color: black;
+}
+
+.nav__contents__account img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
