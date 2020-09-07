@@ -1,0 +1,43 @@
+.boogle-info {
+    position: absolute;
+    bottom: 0;
+    background-color: var(--light-gray);
+    width: 100vw;
+}
+
+.boogle-info__user-location {
+    border-bottom: 1px solid rgba(179, 179, 179, 0.185);
+    box-sizing: border-box;
+    padding: var(--footer-padding);
+    font-size: 15px;
+}
+
+.boogle-info__options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: var(--footer-padding);
+    box-sizing: border-box;
+}
+
+.boogle-info__options__ads {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.boogle-info__options__ads li {
+    margin-right: var(--footer-li-margin);
+}
+
+.boogle-info__options__settings {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.boogle-info__options__settings li {
+    margin-left: var(--footer-li-margin);
+}
