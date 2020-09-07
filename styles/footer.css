@@ -35,7 +35,6 @@
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
 }
 
 .boogle-info__options__settings li {

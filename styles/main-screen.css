@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 8px;
+    margin-top: 30px;
 }
 
 .main-screen__img {
@@ -25,18 +25,38 @@
 
 .main-screen__search-bar {
     display: flex;
-    border: 1px solid black;
+    border: 1px solid lightgray;
     width: 450px;
     border-radius: 30px;
-    padding: 11px 15px;
+    padding: 10px 15px;
     justify-content: space-between;
     align-items:center;
     margin: 25px 0;
-
 }
 
 .main-screen__search-bar input {
     width: 340px;
+    border: none;
+}
+
+.main-screen__search-bar input:focus {
+    outline: none;
+}
+
+.main-screen__search-bar__add-funcs button {
+    font-size: 18px;
+    background-color: white;
+    border: none;
+    margin-left: 5px;
+}
+
+.main-screen__search-bar__add-funcs button:first-child {
+    font-size: 16px;
+    color: inherit;
+}
+
+.main-screen__search-bar__add-funcs button:last-child {
+    color: #4284F4;
 }
 
 .main-screen__search-btns {
