@@ -22,7 +22,8 @@
             </li>
             <li class="nav__contents__account">
                 <a href="">
-                    <img src="https://images.adoist.com/classified-images/001/083/060/4602662/photo_3-month-old-yorkie-pups_38000971.jpg" alt="user profile photo" />
+                    <img src="https://images.adoist.com/classified-images/001/083/060/4602662/photo_3-month-old-yorkie-pups_38000971.jpg"
+                        alt="user profile photo" />
                 </a>
 
             </li>
@@ -30,34 +31,59 @@
     </header>
 
     <main class="main-screen">
-        <img class="main-screen__img" src="https://www.google.com/logos/doodles/2020/kim-sowols-118th-birthday-6753651837108317-l.png" alt="김소월 일러스트" />
+
+        <a href="./searchResult.html">
+            <img class="main-screen__img"
+                src="https://www.google.com/logos/doodles/2020/kim-sowols-118th-birthday-6753651837108317-l.png"
+                alt="김소월 일러스트" />
+        </a>
+
         <div class="main-screen__search-bar">
             <span class="main-screen__search-bar__icon">
-                
+                <i class="fas fa-search"></i>
             </span>
-            <form class="main-screen__search" action="./searchResult.html">
-                <input type="text">
+            <form id="search" class="main-screen__search-bar__input" action="./searchResult.html">
+                <input type="text" required>
             </form>
-            <span class="main-screen__add-funcs">
-                <button class="main-screen__add-funcs__input-tools">Boogle 검색</button>
-                <button class="main-screen__add-funcs__input-voice">I'm Felling Lucky!</button>
-            </span>
+            <div class="main-screen__search-bar__add-funcs">
+                <button class="main-screen__search-bar__add-funcs__input-tools">
+                    <i class="fas fa-keyboard"></i>
+                </button>
+                <button class="main-screen__search-bar__add-funcs__input-voice">
+                    <i class="fas fa-microphone-alt"></i>
+                </button>
+            </div>
         </div>
+
+        <div class="main-screen__search-btns">
+            <button form="search">Boogle검색</button>
+            <a href="./searchResult.html">
+                <button>I'm Feeling Lucky!</button>
+            </a>
+        </div>
+
+        <a href="#">김소월의 일생 살펴보기</a>
+
+        <span>Google 제공 서비스: <a href="#">English</a></span>
+
+
     </main>
 
     <footer class="boogle-info">
-        <div class="boogle-info__user-location"></div>
+        <div class="boogle-info__user-location">
+            <span>대한민국</span>
+        </div>
         <div class="boogle-info__options">
             <ul class="boogle-info__options__ads">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>광고</li>
+                <li>비즈니스</li>
+                <li>Google 정보</li>
+                <li>검색의 원리</li>
             </ul>
             <ul class="boogle-info__options__settings">
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>개인정보처리방침</li>
+                <li>약관</li>
+                <li>설정</li>
             </ul>
         </div>
     </footer>
