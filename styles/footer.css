@@ -21,7 +21,6 @@
 }
 
 .boogle-info__options__ads {
-    width: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -32,7 +31,6 @@
 }
 
 .boogle-info__options__settings {
-    width: 100%;
     display: flex;
     justify-content: flex-end;
 }
